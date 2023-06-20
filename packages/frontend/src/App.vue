@@ -1,3 +1,7 @@
 <template>
-    <button class="btn">It works!</button>
+    <RouterView />
 </template>
+
+<script setup>
+import { RouterView } from "vue-router";
+</script>
